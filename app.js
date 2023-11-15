@@ -3,7 +3,7 @@ const arr = [1, 2, 3, 4, 5];
 console.log(arr); // Output: [1, 2, 3, 4, 5]
 
 // Creating a new array `newArr` with elements: `arr`, 6, and 7
-const newArr = [arr, 6, 7];
+let newArr = [arr, 6, 7];
 console.log(newArr); // Output: [[1, 2, 3, 4, 5], 6, 7]
 
 // Creating two arrays `numbersOne` and `numbersTwo`
@@ -29,8 +29,8 @@ console.log(c); // Output: "c"
 console.log(rest); // Output: ["d", "e"]
 
 // Creating a new array `newArr` by spreading `numbers` and adding `a` to it
-const newArr = [...numbers, a];
-console.log(newArr); // Output: [1, 2, 3, 4, 5, 6, "a"]
+const newNewArr = [...numbers, a];
+console.log(newNewArr); // Output: [1, 2, 3, 4, 5, 6, "a"]
 
 // Creating objects `fiatCar` and `teslaCar` using object literals and spread operator
 const fiatCar = {
