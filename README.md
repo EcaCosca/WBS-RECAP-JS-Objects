@@ -1,4 +1,3 @@
-
 # JavaScript Objects and Spread Operators
 
 This repository contains code examples, documentation links, and discussions from a recent lecture on JavaScript objects, spread operators, and related concepts.
